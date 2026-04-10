@@ -2,8 +2,8 @@ import boto3
 from botocore.exceptions import ClientError
 import sys
  
-AWS_ACCESS_KEY_ID = "AKIATEIVI7UGQFHZAVKH"
-AWS_SECRET_ACCESS_KEY = "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"
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 AWS_SESSION_TOKEN = ""  
  
 def get_boto3_client(service):
